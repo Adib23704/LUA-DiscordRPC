@@ -9,6 +9,12 @@ Discord RPC is the short-form of Discord Rich Presence. It's a secret type of pl
   - Goto **moonloader** folder and Drag n Drop everything to your **GTA SA Game Folder** > **Moonloader** folder.
   - You'll get message on chat when game launches. If it doesn't work contact with me thru Discord: **Adib23704#8947**
 
+# Important Notes:
+- It will only run on Discord Desktop Application. Discord Web Browser version wont work.
+- This mod is fully safe. You can check it anytime you want.
+- You can always edit this script. I'd recommend don't edit it if you don't know how to.
+- **Please! don't share this script without crediting the author.**
+
 # Requirments:
 - [Moonloader](https://blast.hk/moonloader) Latest Version
 - [Sampfuncs](https://blast.hk/sampfuncs) Latest Version.
