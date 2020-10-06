@@ -15,9 +15,12 @@ Discord RPC is the short-form of Discord Rich Presence. It's a secret type of pl
 - You can always edit this script. I'd recommend don't edit it if you don't know how to.
 - **Please! don't share this script without crediting the author.**
 
+# Preview
+![](https://i.imgur.com/RwtyieB.png)
+
 # Requirments:
-- [Moonloader](https://blast.hk/moonloader) Latest Version
-- [Sampfuncs](https://blast.hk/sampfuncs) Latest Version.
+- Download Moonloader and Sampfuncs latest version
+- And other modules and requirments already added with the download
 
 # Developer Information:
 Discord: Adib23704#8947
