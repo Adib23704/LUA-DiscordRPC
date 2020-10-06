@@ -511,7 +511,7 @@ function main()
 	sampAddChatMessage("{4CAF50}SAMPDiscordRPC, {f44336}Credits: Adib and Montri {FFFFFF}Use {9C27B0}/rpchelp", -1)
 	sampRegisterChatCommand("rpcoff", RPCoff)
 	sampRegisterChatCommand("rpchelp", help)
-	sampRegisterChatCommand("test", test)
+	sampRegisterChatCommand("rpcon", RPCon)
 	drpc.Discord_Initialize("542214983115866116", 0, 0, "")
 -- RPC Time --
 	rpc.startTimestamp = os.time()
@@ -567,11 +567,16 @@ end
 
 function RPCoff()
 	discordRPC.shutdown()
-	sampAddChatMessage('{4CAF50}SAMPDiscordRPC: {FFFFFF}Your Discord RPC has been {FF0000}Disabled!{00FF00} Restart the game to turn it on')
+	sampAddChatMessage('{4CAF50}SAMPDiscordRPC: {FFFFFF}Your Discord RPC has been {FF0000}Disabled!', -1)
+end
+
+function RPCon()
+	sampAddChatMessage("{4CAF50}SAMPDiscordRPC: {FFFFFF}Your Discord RPC has been {00FF00}Enabled!", -1)
+	thisScript():reload()
 end
 
 function help()
-	sampShowDialog(565, "{4CAF50}[SAMPDiscordRPC]{ffffff} Information", "{4CAF50}SAMPDiscordRPC{ffffff} - Creates and sends some information like Location, In-Game Name etc \n To your Discord Profile. \n After opening the game click on your Discord Profile to see it. \n Commands: \n {9C27B0}/rpcoff{FFFFFF} - This will turn off the RPC from your Discord profile. \n More commands coming soon \n Current Version: {2196F3}v3.5 \n {f44336}Made by: Adib and Montri", "Close")
+	sampShowDialog(565, "{4CAF50}[SAMPDiscordRPC]{ffffff} Information", "{4CAF50}SAMPDiscordRPC{ffffff} - Creates and sends some information like Location, In-Game Name etc\nTo your Discord Profile.\nAfter opening the game click on your Discord Profile to see it.\nCommands:\n{9C27B0}/rpcoff{FFFFFF} - This will turn off the RPC from your Discord profile.\n{9C27B0}/rpcon{FFFFFF} - This will turn on/restart the RPC from your Discord profile.\n More commands coming soon\nCurrent Version: {2196F3}v4.0\n{f44336}Made by: Adib and Montri", "Close")
 end
 -- End of the Script --
 -- Contact Adib if you have any questions, suggestions or bugs --
