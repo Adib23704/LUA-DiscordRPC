@@ -5,7 +5,7 @@ A Lua Moonloader mod that will show you your current information like: Current N
 Discord RPC is the short-form of Discord Rich Presence. It's a secret type of playing status of Discord. The image show below is the example of what is Discord RPC. It's only available for some official games. But we can activate it by doing some codes. It has 2 images on it where you can hover on the image to see text or etc..
 
 # Download and Installing Instruction:
-  - On the left side you will see **Release** tab. Click on that. You will get download instructions. or [Click Here](https://github.com/Adib23704/LUA-DiscordRPC/releases)
+  - On the right side you will see **Release** tab. Click on that. You will get download instructions. or [Click Here](https://github.com/Adib23704/LUA-DiscordRPC/releases)
   - Goto **moonloader** folder and Drag n Drop everything to your **GTA SA Game Folder** > **Moonloader** folder.
   - You'll get message on chat when game launches. If it doesn't work contact with me thru Discord: **Adib23704#8947**
 
